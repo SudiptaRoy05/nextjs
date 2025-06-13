@@ -4,7 +4,7 @@ const page = ({ params }: { params: { id: string } }) => {
     console.log("User ID:", id);
     return (
         <div>
-            USER details page
+            USER Profile {id}
         </div>
     )
 }
